@@ -1,6 +1,6 @@
 package port
 
-import "mac-cleaner/internal/domain"
+import "dusty/internal/domain"
 
 type Cleaner interface {
 	SafeClean(path string) (*domain.Report, error)
